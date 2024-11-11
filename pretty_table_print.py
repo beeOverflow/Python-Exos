@@ -9,9 +9,9 @@ def print_table(table):
                 valid_elements.append(list[i]) # get elements to print in a line
             except IndexError :
                 continue
-    for element in valid_elements:
-        line += element.rjust(longest_element+5) #rjust to justify 
-    print(line)
+        for element in valid_elements:
+            line += element.rjust(longest_element+5) #rjust to justify 
+        print(line)
             
 
 tableData = [['apple', 'oranges', 'cherries', 'banana','pinapple','strawberry'],
